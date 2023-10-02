@@ -9,4 +9,4 @@ for x in range(0,s1):
     for y in range(0,s2):
         if a[x]==b[y]:
             c=c+[a[x]]
-print(set(c))
+print(list(set(c)))
